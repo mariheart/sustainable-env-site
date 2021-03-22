@@ -1,0 +1,218 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Libre Caslon Text', serif;
+    background-color: white;
+}
+
+/*MENU*/
+.menu {  
+    background-color: black;
+    color: green;
+    font-size: 3vmin; /*FONT SIZE*/
+    
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.menu li {
+    text-decoration: none;
+    
+}
+
+.menu a {
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu a:visited {
+    background-color: black;
+    color: white;
+}
+
+/*IMAGES*/
+.img { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    padding: 10px;
+}
+
+.img img {
+    height: 400px;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+/*TEXT*/
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+    font-size: 25px; /*FONT SIZE*/
+    text-align: justify;
+}
+
+/*BREAKS*/
+.break_1 {
+    padding-left: 540px;
+    padding-right: 540px;
+}
+
+
+.break_2 {
+    padding: 40px;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+    font-size: 15px; /*FONT SIZE*/
+    text-align: center;
+}
+
+/*HEADERS*/
+
+/*Introduction Page*/
+.header {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3b%2FPleasant_Street_Incline_junction.jpg%2F1200px-Pleasant_Street_Incline_junction.jpg&f=1&nofb=1");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/*Innovation*/
+.header_urbanization {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs3.amazonaws.com%2Fmedia.wbur.org%2Fwordpress%2F1%2Ffiles%2F2015%2F04%2F0127_snow_09rl.jpg&f=1&nofb=1");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/*Urbanization*/
+.header_innovation {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fee%2FTrain_at_Orient_Heights%252C_November_2013.JPG%2F1200px-Train_at_Orient_Heights%252C_November_2013.JPG&f=1&nofb=1");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+/*Citations*/
+.header_citations {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3CWQpBBgvCw%2Fmaxresdefault.jpg&f=1&nofb=1");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+/*SUBHEADERS*/
+.subheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 30px; /*FONT SIZE*/
+    text-align: justify;
+    font-style: italic;
+    color: rgb(50, 49, 53);
+}
+
+/*CITATIONS*/
+.cite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+    font-size: 15px; /*FONT SIZE*/
+    text-align: left;
+}
+
+/*LISTS (CITATIONS)*/
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+    font-size: 30px; /*FONT SIZE*/
+    text-align: center;
+}
+
+.list li {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    padding: 25px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: grey;
+}
+
+.list a:visited {
+    color: black;
+}
