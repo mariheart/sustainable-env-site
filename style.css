@@ -144,6 +144,59 @@ body, html {
     font-style: italic;
 }
 
+/*Lessons Learned*/
+.header_lessons {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs3.amazonaws.com%2Fmedia.wbur.org%2Fwordpress%2F1%2Ffiles%2F2015%2F11%2FOrangeLine_Final_Selection.jpg&f=1&nofb=1");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/*Applications*/
+.header_applications {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd279m997dpfwgl.cloudfront.net%2Fwp%2F2019%2F11%2F1119_commuter-rail01-1000x666.jpg&f=1&nofb=1");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/*Conclusions*/
+.header_conclusions {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mbta.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmax_2600x2600%2Fpublic%2Fnews%2FSL_45_ExtendedHybrid_Bus_2018-0919.jpg%3Fitok%3DYS4_5I76&f=1&nofb=1");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
 
 /*Citations*/
 .header_citations {
